@@ -1,0 +1,10 @@
+package com.sanjayacchana.springDemo;
+
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		return "today is your like day";
+	}
+
+}
